@@ -2,10 +2,13 @@ package com.ipiecoles.java.mdd324.homepage.model;
 
 import java.io.Serializable;
 
-public abstract class Film implements Serializable {
+public class Film implements Serializable {
     private String categorie;
     private String description;
     private String titre;
+
+    public Film() {
+    }
 
     public Film(String categorie, String description, String titre) {
         this.categorie = categorie;
